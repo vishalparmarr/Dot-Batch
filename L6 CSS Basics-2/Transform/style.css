@@ -1,0 +1,25 @@
+.translate{
+    background-color: red;
+    font-size: larger;
+    transform: translate(200px,200px);
+}
+
+.rotate{
+    font-size: large;
+    background-color: aqua;
+    transform: rotate(-5deg);
+}
+
+.scale{
+    margin: 400px;
+    background-color: darkgreen;
+    font-size: larger;
+    transform: scale(2,3);
+}
+.skew{
+    margin: 50px;
+    background-color: blue;
+    font-size: larger;
+    color: blanchedalmond;
+    transform: skew(45deg);
+}

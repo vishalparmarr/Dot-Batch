@@ -1,0 +1,31 @@
+#box{
+  border: 1px solid black;
+  font-size: larger;
+  height: 300px;
+  width: 500px;
+
+  /* Linear Gradient */
+  background-image: linear-gradient(red,blue);
+  background-image: linear-gradient(to right,blue,red);
+  background-image: linear-gradient(to bottom right,blue,red);
+  background-image: linear-gradient(to bottom right, rgba(255,0,0,0), rgba(0,0,255,1));
+}
+
+.radial{
+    border: 1px solid black;
+    height: 300px;
+    width: 500px;
+    font-size: larger;
+    /* Radial Gradient */
+    background-image: radial-gradient(yellow,red);
+}
+
+.conic{
+    border: 1px solid black;
+   height: 300px;
+   width: 500px;
+   font-size: larger;
+
+   /* Conic Gradient */
+   background-image: conic-gradient(blue,green,red,violet);
+}
